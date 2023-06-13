@@ -1,0 +1,9 @@
+{
+    "authorization": "INSERT_YOUR_AUTHORIZATION_HERE",
+
+	"usernames":[
+		"INSERT_A_USERNAME_YOU_WANNA_CHECK",
+		"INSERT_ANOTHER_USERNAME_YOU_WANNA_CHECK"
+	]
+
+}
