@@ -1,4 +1,8 @@
+.gitignore
 SwiftSnipe
 config.json
 old_code_for_study
 testing_automating_discord
+generating_name_list
+results
+test.py
