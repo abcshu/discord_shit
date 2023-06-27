@@ -70,6 +70,7 @@ def going_through_name_files(config):
                 writer = csv.writer(results_csv_file, delimiter=' ')
 
                 #going through usernames in this username file
+                available_count = 0
                 for index, username in enumerate(usernames):
                     name_status = check_username_availability(username, auth)
                     print(f'{username:<10.10} {name_status:<10.10} ({index+1}/{len(usernames)} of {username_file}) \t\t\t\t', end='\n'if name_status == 'available' else '\r')
