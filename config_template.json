@@ -1,9 +1,8 @@
 {
     "authorization": "INSERT_YOUR_AUTHORIZATION_HERE",
 
-	"usernames":[
-		"INSERT_A_USERNAME_YOU_WANNA_CHECK",
-		"INSERT_ANOTHER_USERNAME_YOU_WANNA_CHECK"
+	"paths_to_username_files":[
+		"./SOME_USERNAME_FILE.json",
+		"./SOME_FOLDER/ANOTHER_USERNAME_FILE_TEMPLATE.json"
 	]
-
 }
